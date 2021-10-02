@@ -6,6 +6,7 @@ An archive of the MNCOGI Blog, with content from 2007 to 2013.
 ## How this archive was created
 
     wget \
+     --execute=robots=off \
      --recursive \
      --no-clobber \
      --page-requisites \
